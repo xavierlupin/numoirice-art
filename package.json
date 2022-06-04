@@ -43,6 +43,7 @@
     "prepare": "husky install",
     "test": "jest",
     "cz": "cz",
-    "release": "standard-version --no-verify"
+    "release": "standard-version --no-verify",
+    "server": "npx http-server ./docs"
   }
 }

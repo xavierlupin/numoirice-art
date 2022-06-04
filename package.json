@@ -1,0 +1,48 @@
+{
+  "name": "vanilla-preset-env",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/xavierlupin/vanilla-preset-env#readme",
+  "bugs": {
+    "url": "https://github.com/xavierlupin/vanilla-preset-env/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavierlupin/vanilla-preset-env.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Xavier Lupin <xavierlupin0418@gmail.com> (https://github.com/xavierlupin)",
+  "main": "index.js",
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.0",
+    "jest": "^28.1.0",
+    "lint-staged": "^13.0.0",
+    "prettier": "2.6.2",
+    "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{html,css,js,md}": "prettier --write"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "test": "jest",
+    "cz": "cz",
+    "release": "standard-version --no-verify"
+  }
+}

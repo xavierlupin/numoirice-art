@@ -61,7 +61,7 @@ h1 {
 }
 
 .section.home {
-  background-image: url("/images/bg_about.jpg");
+  background-image: url("/numoirice-art/images/bg_about.jpg");
   background-repeat: no-repeat;
   background-position: center left;
   background-size: contain;
@@ -80,7 +80,7 @@ h1 {
 }
 
 .section.about {
-  background-image: url("/images/bg_home.jpg");
+  background-image: url("/numoirice-art/images/bg_home.jpg");
   background-repeat: no-repeat;
   background-position: center right;
   background-size: contain;

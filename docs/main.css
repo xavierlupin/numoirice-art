@@ -94,3 +94,39 @@ h1 {
 .section.about > div > div {
   margin-bottom: .25rem;
 }
+
+.section.preview {
+  background-image: url("/numoirice-art/images/bg_preview.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+}
+
+.section.preview > div {
+  padding-left: 4rem;
+  text-align: right;
+}
+
+.section.mint {
+  background-image: url("/numoirice-art/images/bg_mint.jpg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+}
+
+.section.mint > div {
+  padding-left: 4rem;
+  text-align: left;
+}
+
+.section.link {
+  background-image: url("/numoirice-art/images/bg_link.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+}
+
+.section.link > div {
+  padding-left: 4rem;
+  text-align: right;
+}

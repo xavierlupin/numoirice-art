@@ -103,7 +103,7 @@ h1 {
 }
 
 .section.preview > div {
-  padding-left: 4rem;
+  padding-right: 4rem;
   text-align: right;
 }
 
@@ -127,6 +127,6 @@ h1 {
 }
 
 .section.link > div {
-  padding-left: 4rem;
+  padding-right: 4rem;
   text-align: right;
 }
